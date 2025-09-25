@@ -1,0 +1,5 @@
+module mux4x1(
+	input [1:0] S,
+	input [3:0] D,
+	output reg Y
+);
