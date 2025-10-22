@@ -1,4 +1,4 @@
-module contador_sequencial (
+module contador_sincrono (
     input wire clk,
     input wire rst,
     output reg [3:0] count

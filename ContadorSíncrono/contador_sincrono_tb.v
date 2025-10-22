@@ -1,12 +1,12 @@
 `timescale 1ns/1ps
 
-module tb_contador_sequencial();
+module contador_sincrono_tb();
 
     reg clk;
     reg rst;
     wire [3:0] count;
 
-    contador_sequencial dut (
+    contador_sincrono dut (
         .clk(clk),
         .rst(rst),
         .count(count)
