@@ -5,7 +5,7 @@ module contador_sincrono_crescente (
 );
 	initial q = 4'b0000;	
 
-    always @(posedge clk) begin
+    always @(posedge clk or posedge rst) begin
         if (rst)
             q <= 4'b0000;          
         else

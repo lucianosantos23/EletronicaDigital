@@ -24,8 +24,15 @@ module contador_sincrono_tb();
         rst = 1; 
         #12;
         rst = 0; 
+		  
+		  #160;
 
-        #300;
+        wait (count == 4'd9);
+        rst = 1;
+        #10;
+        rst = 0;
+
+        #100;
 
         $finish; 
     end
