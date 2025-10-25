@@ -63,7 +63,7 @@ Cada módulo possui um **testbench dedicado** (`*_tb.v`) responsável por:
 - Aplicar **casos de teste** para todas as funções  
 - Exibir resultados no **console de simulação**  
 
-💡 As simulações foram realizadas no **ModelSim / GTKWave**, mas são compatíveis com qualquer ambiente Verilog padrão.
+💡 As simulações foram realizadas no **ModelSim**, mas são compatíveis com qualquer ambiente Verilog padrão.
 
 
 ---
@@ -79,5 +79,5 @@ Cada módulo possui um **testbench dedicado** (`*_tb.v`) responsável por:
 
 ## 📜 Licença
 Este projeto é de uso livre para fins acadêmicos e experimentais.  
-Feito por Luciano Araújo
+Feito por **Luciano Araújo**
 
